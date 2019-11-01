@@ -1,0 +1,51 @@
+{
+  "revision_id": "5a82f0a32c79c583fdb2aea15cd99cab8dd491149f4bb27bf011c18b819f9e79",
+  "name": "example_cookbook",
+  "run_list": [
+    "recipe[example_cookbook::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "example_cookbook": {
+      "version": "0.1.0",
+      "identifier": "e0a0ae296fd3928ffd06ff2f0a674b52203d8dcf",
+      "dotted_decimal_identifier": "63227064663135122.40529128162527847.82816100306383",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "git@github.com:mattray/home-directory.git",
+        "revision": "da0278c67ff10261afa5db7bd9964bbbbec9fe0e",
+        "working_tree_clean": true,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "example_cookbook",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "example_cookbook (0.1.0)": [
+
+      ]
+    }
+  }
+}

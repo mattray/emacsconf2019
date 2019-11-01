@@ -1,0 +1,11 @@
+*.pem
+*.swo
+*.swp
+*~
+.DS_Store
+.chef
+.vagrant
+Berksfile.lock
+cookbooks/*
+.kitchen
+policyfiles/*json

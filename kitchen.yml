@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  always_update_cookbooks: true
+  chef_license: accept
+  product_name: chef
+  product_version: 15
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: debian-10
+
+suites:
+  - name: demo
+    provisioner:
+      policyfile: cookbook/Policyfile.rb
+    verifier:
+      inspec_tests:
+        - profile
